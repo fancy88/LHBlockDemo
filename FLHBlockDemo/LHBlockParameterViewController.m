@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"查看控制台输出和代码";
+    self.title = @"查看控制台和代码";
     self.view.backgroundColor = [UIColor whiteColor];
     
     LHBlockClass *blockClass = [[LHBlockClass alloc] init];
