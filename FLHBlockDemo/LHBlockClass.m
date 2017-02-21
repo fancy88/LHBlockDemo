@@ -22,12 +22,12 @@
     int a = arc4random() % 100 + 1;
     blcok3 (a);
 }
+
 - (void)parameter: (int)A andParameterB: (int)B andReturn: (MyBlockParameterTwo)block{
     int c = 0;
     c = A * B;
     block(c, A);
 }
-
 
 // block 作为返回值
 - (MyBlockReturn)getBlock{

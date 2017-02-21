@@ -20,7 +20,7 @@
     self.title = @"查看控制台输出和代码";
     self.view.backgroundColor = [UIColor whiteColor];
     LHBlockClass *blockClass = [[LHBlockClass alloc] init];
-    MyBlockReturn block =  [blockClass getBlock];
+    MyBlockReturn block = [blockClass getBlock];
     block();
     // Do any additional setup after loading the view.
 }
