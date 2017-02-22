@@ -25,8 +25,8 @@
         NSLog(@"a = %d", a);
     }];
     
-    [blockClass parameter:4 andParameterB:5 andReturn:^(int b, int c) {
-        NSLog(@"b = %d, c = %d", b, c);
+    [blockClass parameter:4 andParameterB:5 andReturn:^(int c, int b) {
+        NSLog(@"c = %d, b = %d", c, b);
     }];
     // Do any additional setup after loading the view.
 }
