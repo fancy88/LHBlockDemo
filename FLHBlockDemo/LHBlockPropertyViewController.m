@@ -28,7 +28,7 @@
     
     // 两个参数
     blockClass.block2 = ^(NSString *str, int a){
-         NSLog(@"string = %@, a = %d",str, a);
+        NSLog(@"string = %@, a = %d",str, a);
     };
     
     [blockClass blockPropertyUse];

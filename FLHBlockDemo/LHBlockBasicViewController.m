@@ -26,17 +26,17 @@ int c = 10;
      * 1. block 内部默认是不能修改外面的局部变量, 但是可以通过__block关键字修饰来改变局部变量
      * 2. block 内部可以改变全局变量
      */
-    
+
     __block int b = 20;
-    void (^block1)() = ^{
-        // a = 20; 程序报错
+    void (^block)() = ^{
+       // a = 20; // 程序报错
         b = 25;
         NSLog(@"修改后b = %d", b);
         c = 20;
         NSLog(@"修改后c = %d", c);
     };
     
-    block1();
+    block();
     
     // Do any additional setup after loading the view.
 }
