@@ -25,7 +25,7 @@ typedef void(^MyBlockReturn)(void);
 @property (nonatomic, copy) MyBlockPropertyUse    block;
 @property (nonatomic, copy) MyBlockPropertyUseTwo block2;
 // block 作为属性
--(void)blockPropertyUse;
+- (void)blockPropertyUse;
 
 //block 作为参数, 第二步
 - (void)method: (MyBlockParameter)blcok3;
