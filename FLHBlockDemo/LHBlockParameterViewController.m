@@ -22,11 +22,11 @@
     
     LHBlockClass *blockClass = [[LHBlockClass alloc] init];
     [blockClass method:^(int a) {
-        NSLog(@"a = %d", a);
+        NSLog(@"Hello, a = %d", a);
     }];
     
     [blockClass parameter:4 andParameterB:5 andReturn:^(int c, int b) {
-        NSLog(@"c = %d, b = %d", c, b);
+        NSLog(@"Hello, c = %d, b = %d", c, b);
     }];
     // Do any additional setup after loading the view.
 }

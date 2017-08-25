@@ -32,7 +32,7 @@
 // block 作为返回值
 - (MyBlockReturn)getBlock{
     return ^{
-        NSLog(@"getBlock被调用");
+        NSLog(@"Hello, getBlock被调用");
     };
 }
 
