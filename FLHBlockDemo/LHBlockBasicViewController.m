@@ -8,7 +8,7 @@
 
 #import "LHBlockBasicViewController.h"
 
-int c = 10;
+ int c = 10;
 
 @interface LHBlockBasicViewController ()
 
@@ -32,7 +32,7 @@ int c = 10;
        // a = 20; // 程序报错
         b = 25;
         NSLog(@"修改后b = %d", b);
-        c = 20;
+        c = 25;
         NSLog(@"修改后c = %d", c);
     };
     
